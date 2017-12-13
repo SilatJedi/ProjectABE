@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
                 }
                 return false
             }
-
             //for SDK 21(lollipop) and higher
             @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
             override fun shouldOverrideUrlLoading(
