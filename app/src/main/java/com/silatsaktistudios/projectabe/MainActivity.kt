@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    //restricts the app to only access URL's that link to Arduboy games
     private var kidsMode = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
